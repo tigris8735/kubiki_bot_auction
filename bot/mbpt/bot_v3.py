@@ -48,7 +48,7 @@ log("Tesseract инициализирован")
 items = ['Боевой набор']
 items_prices = [150000]
 item_index = 0
-auction_button = 'h'
+auction_button = 'p'
 refresh_algorithm_coef = 12
 IsUseCache = True
 IsSaveImageInCache = False
@@ -104,7 +104,7 @@ if os.path.exists(buy_lot_button_path):
 else:
     log("Изображение BuyLot_Button не найдено, будет использоваться резервная координата")
 
-x_screenshot, y_screenshot, screenshot_size_x, screenshot_size_y = 1240, 385, 135, 370
+x_screenshot, y_screenshot, screenshot_size_x, screenshot_size_y = 1320, 385, 70, 370
 pages_images_screenshot_space = (980, 755, 170, 25)
 x_price_offset, y_price_offset, price_size_x, price_size_y = 5, 2, 135, 30
 good_line_size_y = 37
